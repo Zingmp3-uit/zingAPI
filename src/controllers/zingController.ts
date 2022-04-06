@@ -196,6 +196,7 @@ export default class zingController {
                 return res.status(500).send({ err });
             })
     }
+    // 3 params
     async getListMV(req: Request, res: any, next: NextFunction) {
         if (!req.query.id || !req.query.page || !req.query.count) {
             return res.status(500).send({ mess: 'Lỗi định dạng, xem lại name' });
