@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "type": "module",
   "scripts": {
     "clean": "rimraf build",
     "build": "tsc",
@@ -25,7 +24,8 @@
     "@types/node": "^14.6.0",
     "chai": "^4.3.4",
     "chai-http": "^4.3.0",
-    "rimraf": "^3.0.2"
+    "rimraf": "^3.0.2",
+    "typescript": "^4.9.4"
   },
   "dependencies": {
     "ajv": "^8.6.2",
@@ -40,20 +40,15 @@
     "express-rate-limit": "^5.3.0",
     "express-session": "^1.17.2",
     "fetch": "^1.1.0",
-    "fs": "^0.0.1-security",
-    "google-auth-library": "^7.10.2",
     "got": "^11.8.2",
     "greenlock-express": "^4.0.3",
     "helmet": "^4.1.0",
     "hpagent": "^0.1.2",
     "joi": "^17.4.2",
     "js-base64": "^3.7.0",
-    "jsonwebtoken": "^8.5.1",
-    "knex": "^0.95.11",
     "morgan": "^1.10.0",
-    "mysql2": "^2.3.0",
     "path": "^0.12.7",
-    "ts-node-dev": "^1.1.8",
+    "ts-node-dev": "^2.0.0",
     "uuid": "^8.3.2",
     "zingmp3-api-full": "^1.0.9"
   }

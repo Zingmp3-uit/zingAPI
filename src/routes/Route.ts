@@ -1,6 +1,5 @@
 import { Router } from 'express';
 import ZingController from '../controllers/zingController';
-import { verifyToken } from '../middlewares/auth.mdw';
 import apicache from 'apicache';
 let cache = apicache.middleware;
 class Routes {
